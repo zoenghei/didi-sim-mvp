@@ -41,5 +41,5 @@
 ---
 
 ## 产品示例
-<img width="253.5" height="114.4" alt="image" src="https://github.com/user-attachments/assets/48b85691-5421-435f-8800-0744ebf8f3ae" />
+<img width="507" height="228.8" alt="image" src="https://github.com/user-attachments/assets/48b85691-5421-435f-8800-0744ebf8f3ae" />
 
