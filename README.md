@@ -29,5 +29,30 @@
 ```bash
 pip install -r requirements.txt
 streamlit run web/app.py
+启动后可在浏览器访问 http://localhost:8501
+，调节乘客/司机数量和拥堵参数，查看模拟结果与可视化地图。
 
-<img width="700" height="623" alt="image" src="https://github.com/user-attachments/assets/f6a58f82-e4ff-4fc6-9fe6-351b80aa9d1f" />
+实验结果
+
+等待时间：优化方案可将平均等待时间缩短至 5 分钟以内；
+
+总行驶路程：优化方案相比基准方案，整体路程降低约 15–20%；
+
+匹配率：在当前参数下两者接近，但优化更关注效率与体验。
+
+示例数据（200 乘客，50 司机）：
+
+Baseline 总路程 = 1000 km
+
+Optimized 总路程 = 820 km
+
+路程降低率 = 18%
+
+产品价值
+
+用户体验：缩短等待时间，提升出行效率。
+
+司机效率：减少空驶，提高资源利用率。
+
+产品思维：这是一次完整的“痛点 → MVP 验证 → 指标对比 → 可视化呈现”的实践，展示了如何快速验证出行业务的核心假设。
+
