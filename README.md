@@ -25,13 +25,6 @@
 
 ---
 
-## 使用方法  
-```bash
-pip install -r requirements.txt
-streamlit run web/app.py
-
----
-
 ## 实验结果  
 
 - **等待时间**：优化方案可将平均等待时间缩短至 5 分钟以内；  
